@@ -1,3 +1,4 @@
+# Reverse using recursion (+ assignment)
 def reverse(s):
     
     string = s[-1]
@@ -9,7 +10,8 @@ def reverse(s):
         return
     
     print(string)
-
+    
+# Reverse using recursion (without an assignment variable)
 def reverse2(s):
     
     if len(s) > 1:
@@ -18,3 +20,11 @@ def reverse2(s):
         return s[-1]
     else:
         return
+
+# A different approach
+def reverse3(s):
+
+    if len(s) <= 1:
+        return s
+
+    return reverse(s[1:]) + s[0]
