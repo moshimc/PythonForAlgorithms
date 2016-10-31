@@ -1,3 +1,13 @@
+#!/usr/bin/env python
+
+# ----------------------------------------
+#
+# Author: Matthew Collard
+# Name: ReverseString
+# Problem: Reverse a string using recursion
+#
+# ----------------------------------------
+
 # Reverse using recursion (+ assignment)
 def reverse(s):
     
