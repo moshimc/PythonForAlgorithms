@@ -2,7 +2,7 @@ def FibonacciUsingRecursion(n):
     
     # Base case
     if n == 0 or n == 1:
-        return 1
+        return n
     else:
         # Recurse
         return FibonacciUsingRecursion(n-1) + FibonacciUsingRecursion(n-2)
